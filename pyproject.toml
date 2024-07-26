@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sttk-documentation"
+version = "0.1.0"
+description = "Documentation website for the Systematic Trading Toolkit (STTK)"
+authors = ["Nils P. Kujath <63961429+NilsKujath@users.noreply.github.com>"]
+readme = "README.md"
+package-mode = false
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mkdocs = "^1.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
