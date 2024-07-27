@@ -1,11 +1,14 @@
 site_name: STTK
 site_url: https://www.sttk.org
-copyright: Copyright &copy 2024-2024; Nils Kujath
+#copyright: Copyright &copy 2024-2024; Nils Kujath
 extra:
   generator: false
 nav:
   - Introduction: index.md
   - Quickstart Guide: quickstart.md
+  - Historical Market Data: histdata.md
+  - Vectorized Backtester: vectorizedbt.md
+  - Event-driven Backtester: eventdrivenbt.md
 theme:
   name: material
   palette:
