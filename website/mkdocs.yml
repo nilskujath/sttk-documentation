@@ -5,6 +5,7 @@ extra:
   generator: false
 nav:
   - Introduction: index.md
+  - Useful Resources: usefulres.md
   - Quickstart Guide: quickstart.md
   - Historical Market Data: histdata.md
   - Vectorized Backtester: vectorizedbt.md
