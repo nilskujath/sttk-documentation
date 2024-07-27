@@ -1,6 +1,13 @@
 site_name: STTK
-site_url: https://nilskujath.github.io/sttk-documentation
+site_url: https://www.sttk.org
+copyright: Copyright &copy 2024-2024; Nils Kujath
+extra:
+  generator: false
 nav:
-  - Home: index.md
-  - About: about.md
-theme: material
+  - Introduction: index.md
+  - Quickstart Guide: quickstart.md
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: black

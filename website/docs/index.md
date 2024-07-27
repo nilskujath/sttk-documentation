@@ -1,17 +1,3 @@
-# Welcome to MkDocs
+# Welcome to STTK 
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+STTK - short for Systematic Trading Toolkit - is a suite of open source modules, datasets and tutorials designed to support the full lifecycle of systematic trading efforts: from idea generation, realistic event-driven backtesting and robustness-focused optimisation, through the definition of a portfolio integration pipeline for the selected strategies, to their monitored live execution and eventual discontinuation.
