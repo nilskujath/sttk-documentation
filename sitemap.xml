@@ -21,6 +21,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://www.sttk.org/usefulres/</loc>
+         <lastmod>2024-07-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://www.sttk.org/vectorizedbt/</loc>
          <lastmod>2024-07-27</lastmod>
          <changefreq>daily</changefreq>
