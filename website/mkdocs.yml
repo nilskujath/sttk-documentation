@@ -1,5 +1,6 @@
-site_name: MkLorum
+site_name: STTK
+site_url: https://nilskujath.github.io/sttk-documentation
 nav:
   - Home: index.md
   - About: about.md
-theme: readthedocs
+theme: material
