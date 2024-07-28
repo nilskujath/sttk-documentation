@@ -1,17 +1,44 @@
-site_name: STTK
+site_name: Syestematic Trading Toolkit
 site_url: https://www.sttk.org
 #copyright: Copyright &copy 2024-2024; Nils Kujath
 extra:
   generator: false
 nav:
-  - Introduction: index.md
-  - Useful Resources: useful-resources.md
-  - Quickstart Guide: quickstart-guide.md
-  - Historical Market Data: historical-market-data.md
-  - Vectorized Backtest: vectorized-backtest.md
-  - Event-driven Backtest: event-driven-backtest.md
+  - Home:
+    - Welcome: index.md
+    - Project Roadmap: home/project-roadmap.md
+  - Getting Started:
+    - Overview: getting-started/overview.md
+    - Quickstart Guide:
+      - Installation: getting-started/quickstart-guide/quickstart-guide-installation.md
+      - Hello, World!: getting-started/quickstart-guide/hello-world.md
+    - Installation:
+      - Installation via Docker: getting-started/installation/docker.md
+  - Documentation:
+    - Overview: documentation/overview.md
+    - Charting Tool:
+        - Overview and Usage: documentation/charting-tool/overview-and-usage.md
+        - Module Walkthrough: documentation/charting-tool/module-walkthrough.md
+  - API Reference:
+    - Overview: api-reference/overview.md
+  - Tutorials:
+    - Overview: tutorials/overview.md
+    - Beginner Tutorials:
+      - Plotting a High-Low Bar Chart: tutorials/beginner-tutorials/high-low-bar-chart.md
+  - Education:
+    - Overview: education/overview.md
+    - Git Basics:
+      - Concept: education/git-basics/concept.md
+    - Python Basics:
+      - Overview: education/python-basics/overview.md
+  - Research:
+    - Overview: research/overview.md
 theme:
   name: material
   palette:
     scheme: slate
     primary: black
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+#    - navigation.sections
