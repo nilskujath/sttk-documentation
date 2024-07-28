@@ -6,27 +6,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.sttk.org/event-driven-backtest/</loc>
-         <lastmod>2024-07-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.sttk.org/historical-market-data/</loc>
-         <lastmod>2024-07-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.sttk.org/quickstart-guide/</loc>
-         <lastmod>2024-07-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.sttk.org/useful-resources/</loc>
-         <lastmod>2024-07-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.sttk.org/vectorized-backtest/</loc>
+         <loc>https://www.sttk.org/vectorized-backtesting-engine/</loc>
          <lastmod>2024-07-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
