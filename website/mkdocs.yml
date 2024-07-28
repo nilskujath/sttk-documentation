@@ -5,11 +5,11 @@ extra:
   generator: false
 nav:
   - Introduction: index.md
-  - Useful Resources: usefulres.md
-  - Quickstart Guide: quickstart.md
-  - Historical Market Data: histdata.md
-  - Vectorized Backtester: vectorizedbt.md
-  - Event-driven Backtester: eventdrivenbt.md
+  - Useful Resources: useful-resources.md
+  - Quickstart Guide: quickstart-guide.md
+  - Historical Market Data: historical-market-data.md
+  - Vectorized Backtest: vectorized-backtest.md
+  - Event-driven Backtest: event-driven-backtest.md
 theme:
   name: material
   palette:
