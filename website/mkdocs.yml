@@ -16,21 +16,15 @@ nav:
       - Installation via Docker: getting-started/installation/docker.md
   - Documentation:
     - Overview: documentation/overview.md
-    - Charting Tool:
-        - Overview and Usage: documentation/charting-tool/overview-and-usage.md
-        - Module Walkthrough: documentation/charting-tool/module-walkthrough.md
+    - Jupyter Research Tools:
+      - CSV Inspector: documentation/jupyter-research-tools/csv-inspector.md
+      - CSV High-Low Bar Plotter: documentation/jupyter-research-tools/csv-high-low-bar-plotter.md
   - API Reference:
     - Overview: api-reference/overview.md
   - Tutorials:
     - Overview: tutorials/overview.md
     - Beginner Tutorials:
       - Plotting a High-Low Bar Chart: tutorials/beginner-tutorials/high-low-bar-chart.md
-  - Education:
-    - Overview: education/overview.md
-    - Git Basics:
-      - Concept: education/git-basics/concept.md
-    - Python Basics:
-      - Overview: education/python-basics/overview.md
   - Research:
     - Overview: research/overview.md
 theme:
