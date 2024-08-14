@@ -25,6 +25,8 @@ nav:
     - Overview: tutorials/overview.md
     - Beginner Tutorials:
       - Plotting a High-Low Bar Chart: tutorials/beginner-tutorials/high-low-bar-chart.md
+  - Contribute:
+    - CI/CD Pipeline: contribute/cicd.md
   - Research:
     - Overview: research/overview.md
 theme:
@@ -36,3 +38,6 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
 #    - navigation.sections
+plugins:
+  - search
+  - git-revision-date-localized

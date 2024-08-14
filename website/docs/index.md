@@ -1,3 +1,3 @@
 # Welcome
 
-[//]: # (STTK - short for Systematic Trading Toolkit - is a suite of open source modules, datasets and tutorials designed to support the full lifecycle of systematic trading efforts: from idea generation, realistic event-driven backtesting and robustness-focused optimisation, through the definition of a portfolio integration pipeline for the selected strategies, to their monitored live execution and eventual discontinuation.)
+The Systematic Trading Toolkit (or short, STTK) is a set of open source modules that support quantitative research and the development and execution of systematic trading strategies.
