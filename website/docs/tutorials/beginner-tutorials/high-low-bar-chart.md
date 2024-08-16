@@ -1,1 +1,0 @@
-# Plotting a High-Low Bar Chart

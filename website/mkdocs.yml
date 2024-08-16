@@ -4,31 +4,17 @@ site_url: https://www.sttk.org
 extra:
   generator: false
 nav:
-  - Home:
-    - Welcome: index.md
-    - Project Roadmap: home/project-roadmap.md
   - Getting Started:
-    - Overview: getting-started/overview.md
-    - Quickstart Guide:
-      - Installation: getting-started/quickstart-guide/quickstart-guide-installation.md
-      - Hello, World!: getting-started/quickstart-guide/hello-world.md
-    - Installation:
-      - Installation via Docker: getting-started/installation/docker.md
-  - Documentation:
-    - Overview: documentation/overview.md
-    - Jupyter Research Tools:
-      - CSV Inspector: documentation/jupyter-research-tools/csv-inspector.md
-      - CSV High-Low Bar Plotter: documentation/jupyter-research-tools/csv-high-low-bar-plotter.md
+    - Quickstart Guide: index.md
+#    - Installation: getting-started/installation.md
   - API Reference:
-    - Overview: api-reference/overview.md
-  - Tutorials:
-    - Overview: tutorials/overview.md
-    - Beginner Tutorials:
-      - Plotting a High-Low Bar Chart: tutorials/beginner-tutorials/high-low-bar-chart.md
-  - Contribute:
-    - CI/CD Pipeline: contribute/cicd.md
-  - Research:
-    - Overview: research/overview.md
+    - Library Overview: api-reference/library-overview.md
+    - researchtools (Package):
+      - csvinspector (Module): api-reference/researchtools/csvinspector.md
+    - data (Package):
+      - yfdownload (Module): api-reference/data/yfdownload.md
+#  - Contribute:
+#    - CI/CD Pipeline: contribute/cicd.md
 theme:
   name: material
   palette:
@@ -38,6 +24,47 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
 #    - navigation.sections
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
 plugins:
   - search
   - git-revision-date-localized
+  - glightbox:
+       touchNavigation: true
+       loop: false
+       effect: zoom
+       slide_effect: slide
+       width: 100%
+       height: auto
+       zoomable: true
+       draggable: true
+       skip_classes:
+         - custom-skip-class-name
+       auto_caption: false
+       caption_position: bottom
+       background: white
+       shadow: true
+       manual: false
+repo_url: https://github.com/NilsKujath/sttk
+repo_name: nilskujath/sttk
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
