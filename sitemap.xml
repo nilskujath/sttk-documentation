@@ -2,72 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://www.sttk.org/</loc>
-         <lastmod>2024-08-14</lastmod>
+         <lastmod>2024-08-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.sttk.org/api-reference/overview/</loc>
-         <lastmod>2024-08-14</lastmod>
+         <loc>https://www.sttk.org/api-reference/library-overview/</loc>
+         <lastmod>2024-08-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.sttk.org/api-reference/data/yfdownload/</loc>
+         <lastmod>2024-08-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.sttk.org/api-reference/researchtools/csvinspector/</loc>
+         <lastmod>2024-08-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.sttk.org/contribute/cicd/</loc>
-         <lastmod>2024-08-14</lastmod>
+         <lastmod>2024-08-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.sttk.org/documentation/overview/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.sttk.org/documentation/jupyter-research-tools/csv-high-low-bar-plotter/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.sttk.org/documentation/jupyter-research-tools/csv-inspector/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.sttk.org/getting-started/overview/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.sttk.org/getting-started/installation/docker/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.sttk.org/getting-started/quickstart-guide/hello-world/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.sttk.org/getting-started/quickstart-guide/quickstart-guide-installation/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.sttk.org/home/project-roadmap/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.sttk.org/research/overview/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.sttk.org/tutorials/overview/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.sttk.org/tutorials/beginner-tutorials/high-low-bar-chart/</loc>
-         <lastmod>2024-08-14</lastmod>
+         <loc>https://www.sttk.org/getting-started/installation/</loc>
+         <lastmod>2024-08-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
