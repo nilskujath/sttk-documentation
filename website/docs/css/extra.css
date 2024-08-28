@@ -1,0 +1,4 @@
+/* Change the font size of the body text */
+.md-typeset {
+    font-size: 14px; /* Change this value to the desired font size */
+}

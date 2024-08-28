@@ -7,12 +7,12 @@ nav:
   - Getting Started:
     - Quickstart Guide: index.md
 #    - Installation: getting-started/installation.md
-  - API Reference:
-    - Library Overview: api-reference/library-overview.md
-    - researchtools (Package):
-      - csvinspector (Module): api-reference/researchtools/csvinspector.md
-    - data (Package):
-      - yfdownload (Module): api-reference/data/yfdownload.md
+#  - API Reference:
+#    - Library Overview: api-reference/library-overview.md
+#    - researchtools (Package):
+#      - csvinspector (Module): api-reference/researchtools/csvinspector.md
+#    - data (Package):
+#      - yfdownload (Module): api-reference/data/yfdownload.md
 #  - Contribute:
 #    - CI/CD Pipeline: contribute/cicd.md
 theme:
@@ -68,3 +68,7 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
+
+
+extra_css:
+  - css/extra.css
