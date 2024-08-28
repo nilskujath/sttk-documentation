@@ -12,8 +12,6 @@
       
       
       
-        <link rel="next" href="api-reference/library-overview/">
-      
       
       <link rel="icon" href="assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.30">
@@ -45,6 +43,8 @@
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="css/extra.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -205,24 +205,6 @@
   
 
       
-        
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="api-reference/library-overview/" class="md-tabs__link">
-          
-  
-  API Reference
-
-        </a>
-      </li>
-    
-  
-
-      
     </ul>
   </div>
 </nav>
@@ -370,9 +352,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#install-via-pip" class="md-nav__link">
+  <a href="#installation" class="md-nav__link">
     <span class="md-ellipsis">
-      Install via pip
+      Installation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up-jupyter-notebook" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up Jupyter Notebook
     </span>
   </a>
   
@@ -387,209 +378,36 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#plotting-a-bar-chart" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plotting a Bar Chart
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-indicators" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding Indicators
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cleaning-up" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cleaning up
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
-      
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
-        
-          
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    API Reference
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2">
-            <span class="md-nav__icon md-icon"></span>
-            API Reference
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="api-reference/library-overview/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Library Overview
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
-        
-          
-          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    researchtools (Package)
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_2">
-            <span class="md-nav__icon md-icon"></span>
-            researchtools (Package)
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="api-reference/researchtools/csvinspector/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    csvinspector (Module)
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
-        
-          
-          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    data (Package)
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_3">
-            <span class="md-nav__icon md-icon"></span>
-            data (Package)
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="api-reference/data/yfdownload/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    yfdownload (Module)
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
     </li>
   
@@ -630,9 +448,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#install-via-pip" class="md-nav__link">
+  <a href="#installation" class="md-nav__link">
     <span class="md-ellipsis">
-      Install via pip
+      Installation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up-jupyter-notebook" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up Jupyter Notebook
     </span>
   </a>
   
@@ -642,6 +469,33 @@
   <a href="#download-historical-market-data" class="md-nav__link">
     <span class="md-ellipsis">
       Download Historical Market Data
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plotting-a-bar-chart" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plotting a Bar Chart
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-indicators" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding Indicators
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cleaning-up" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cleaning up
     </span>
   </a>
   
@@ -666,14 +520,8 @@
 
 
 <h1 id="quickstart-guide">Quickstart Guide</h1>
-<p>The Systematic Trading Toolkit (STTK) is a set of open source modules that support quantitative research and the development and execution of systematic trading strategies. This Quickstart Guide will get you up and running on some of the Toolkit's notable features:</p>
-<details class="info" open="open">
-<summary>Expand and collapse info boxes</summary>
-<p>Use the button on the right side of the box to expand and collapse info boxes</p>
-</details>
-<h2 id="install-via-pip">Install via pip</h2>
-<details class="tip">
-<summary>Create a project directory and a virtual environment first</summary>
+<p>The Systematic Trading Toolkit (STTK) is a set of open source modules that support quantitative research and the development and execution of systematic trading strategies. This Quickstart Guide will introduce you to some of the key features of the toolkit.</p>
+<h2 id="installation">Installation</h2>
 <p>Before using this library in your projects, you might first want to create a <code>sttk-testdrive</code> directory and a dedicated virtual environment to take this library for a spin:</p>
 <p><strong>Step 1</strong>: Create a project directory.
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>mkdir<span class="w"> </span>sttk-testdrive
@@ -703,173 +551,174 @@ This command will create a directory named <code>sttk-testdrive</code> (or any n
 </div>
 </div>
 </div>
-<p>If you later want to deactivate the environment again, run:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>deactivate
+<p><strong>Step 4</strong>: Install the <code>sttk</code> library via the <code>pip</code> package installer:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>pip<span class="w"> </span>install<span class="w"> </span>sttk
 </span></code></pre></div></p>
-</details>
-<p><code>sttk</code> can be installed via the <code>pip</code> package installer:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>pip<span class="w"> </span>install<span class="w"> </span>sttk
+<p>To check your installation, run:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>pip<span class="w"> </span>show<span class="w"> </span>sttk
 </span></code></pre></div></p>
-<h2 id="download-historical-market-data">Download Historical Market Data</h2>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="cli" name="__tabbed_2" type="radio" /><input id="jupyter-notebook" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="cli">CLI</label><label for="jupyter-notebook">Jupyter Notebook</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<p><strong>Step 1</strong>: Enter the Python interpreter in interactive mode inside the <code>sttk-testdrive</code> directory.</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="n">python3</span> <span class="c1">#(1)!</span>
-</span></code></pre></div>
-<ol>
-<li>If <code>python3</code> does not work, try <code>python</code> instead. If this works, make sure that this refers to Python 3 and not 2 by checking the indicated version number displayed at the start of the interactive interpreter.</li>
-</ol>
-<p><strong>Step 2</strong>: Import the necessary module.
-<div class="language-python highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="kn">import</span> <span class="nn">sttk.data.yfdownload</span> <span class="k">as</span> <span class="nn">yfd</span>
-</span></code></pre></div></p>
-<p><strong>Step 3</strong>: Download a CSV file containing OHLC data from Yahoo Finance.</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="n">yfd</span><span class="o">.</span><span class="n">download_and_resample_yf_data</span><span class="p">(</span>
-</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>    <span class="n">stock_symbol</span> <span class="o">=</span> <span class="s1">&#39;AAPL&#39;</span><span class="p">,</span>
-</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>    <span class="n">start_date</span> <span class="o">=</span> <span class="s1">&#39;2023-01-01&#39;</span><span class="p">,</span>
-</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a>    <span class="n">end_date</span> <span class="o">=</span> <span class="s1">&#39;2023-12-31&#39;</span><span class="p">,</span>
-</span><span id="__span-9-5"><a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a>    <span class="n">period</span> <span class="o">=</span> <span class="s1">&#39;1d&#39;</span><span class="p">,</span>
-</span><span id="__span-9-6"><a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a>    <span class="n">data_dir</span> <span class="o">=</span> <span class="s1">&#39;.&#39;</span><span class="p">,</span> <span class="c1">#(1)!</span>
-</span><span id="__span-9-7"><a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a><span class="p">)</span>
-</span></code></pre></div>
-<ol>
-<li>This guide assumes that you want to save the CSV file containing the downloaded historical market data in a subdirectory named <code>sttk-data</code> within your current working directory. If not, you need to specify the path in which the downloaded CSV files should be saved via the <code>data_dir</code> argument when calling the <code>yfd.download_and_resample_yf_data()</code> function.</li>
-</ol>
-<p>This will create a <code>sttk-data</code> directory inside your current working directory and save a file named <code>AAPL_historical_2023-01-01_2023-12-31_1d.csv</code> inside this directory.</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>.
-</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="hll">├── sttk-data
-</span></span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a><span class="hll">│   └── AAPL_historical_2023-01-01_2023-12-31_1d.csv
-</span></span><span id="__span-10-4"><a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a>└── sttk-testenv
-</span><span id="__span-10-5"><a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a>    ├── bin
-</span><span id="__span-10-6"><a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a>    ├── etc
-</span><span id="__span-10-7"><a id="__codelineno-10-7" name="__codelineno-10-7" href="#__codelineno-10-7"></a>    ├── include
-</span><span id="__span-10-8"><a id="__codelineno-10-8" name="__codelineno-10-8" href="#__codelineno-10-8"></a>    ├── lib
-</span><span id="__span-10-9"><a id="__codelineno-10-9" name="__codelineno-10-9" href="#__codelineno-10-9"></a>    ├── pyvenv.cfg
-</span><span id="__span-10-10"><a id="__codelineno-10-10" name="__codelineno-10-10" href="#__codelineno-10-10"></a>    └── share
-</span></code></pre></div>
-<p><strong>Step 4 (Optional)</strong>: You can now inspect the downloaded CSV file with STTK's CSV inspector tool.
-<div class="language-python3 highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="kn">import</span> <span class="nn">sttk.researchtools.csvinspector</span> <span class="k">as</span> <span class="nn">csvi</span>
-</span></code></pre></div>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="n">csvi</span><span class="o">.</span><span class="n">csvinspector</span><span class="p">(</span>
-</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>    <span class="n">csv_file_path</span> <span class="o">=</span> <span class="s1">&#39;./sttk-data/AAPL_historical_2023-01-01_2023-12-31_1d.csv&#39;</span><span class="p">,</span> 
-</span><span id="__span-12-3"><a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a><span class="p">)</span>
-</span></code></pre></div></p>
-<p><strong>Step 5 (Optional)</strong>: Cleaning up.</p>
-<p>Delete the <code>sttk-data</code> folder:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>rm<span class="w"> </span>-r<span class="w"> </span>sttk-data
-</span></code></pre></div></p>
-<p>Deactivate the virtual environment (if desired):
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>deactivate
-</span></code></pre></div></p>
-</div>
-<div class="tabbed-block">
+<h2 id="setting-up-jupyter-notebook">Setting up Jupyter Notebook</h2>
 <p>It is convenient to use a Jupyter Notebook for conducting quantitative research with the Systematic Trading Toolkit.
 To do that, you need to install the <code>notebook</code> package.</p>
 <p><strong>Step 1</strong>: Install <code>notebook</code> package.
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>pip<span class="w"> </span>install<span class="w"> </span>notebook
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>pip<span class="w"> </span>install<span class="w"> </span>notebook
 </span></code></pre></div></p>
 <p><strong>Step 2</strong>: Create a new folder for saving your Jupyter Notebook(s):
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>mkdir<span class="w"> </span>notebooks
-</span><span id="__span-16-2"><a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a><span class="nb">cd</span><span class="w"> </span>notebooks
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>mkdir<span class="w"> </span>notebooks
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="nb">cd</span><span class="w"> </span>notebooks
 </span></code></pre></div></p>
 <p><strong>Step 3</strong>: After having switched your current working directory to the <code>notebooks</code> directory, run:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>jupyter<span class="w"> </span>notebook<span class="w"> </span>--port<span class="o">=</span><span class="m">8888</span>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>jupyter<span class="w"> </span>notebook<span class="w"> </span>--port<span class="o">=</span><span class="m">8888</span>
 </span></code></pre></div>
 Now, a Jupyter Notebook server will run at <code>localhost:8888</code>, the port number should be changed if this port is already in use.</p>
-<p><strong>Step 4</strong>: Open up a new Jupyter Notebook and select <code>Python 3 (ipykernel)</code> if asked to select a kernel.
-<figure markdown="span">
+<p><strong>Step 4</strong>: Open up a new Jupyter Notebook and select <code>Python 3 (ipykernel)</code> if asked to select a kernel.</p>
+<figure>
+  <a class="glightbox" href="images/jupyter-set-theme.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Jupyter Notebook: Set theme" src="images/jupyter-set-theme.png" /></a>
+  <figcaption>Set the desired theme by clicking on `Settings&gt;Theme&gt;...`</figcaption>
+</figure>
+<figure>
   <a class="glightbox" href="images/jupyter-new-notebook.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Jupyter Notebook: Create new Notebook" src="images/jupyter-new-notebook.png" /></a>
-  <figcaption>Create new Notebook by clicking on <code>File&gt;New&gt;Notebook</code></figcaption>
-</figure></p>
-<p><figure markdown="span">
+  <figcaption>Create new Notebook by clicking on `File&gt;New&gt;Notebook`</figcaption>
+</figure>
+<figure>
   <a class="glightbox" href="images/jupyter-new-notebook-select-kernel.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Jupyter Notebook: Select Kernel" src="images/jupyter-new-notebook-select-kernel.png" /></a>
   <figcaption>Select: Python 3 (ipykernel)</figcaption>
-</figure></p>
+</figure>
 <p><strong>Step 5</strong>: Rename the Notebook file to <code>testdrive.ipynb</code> by clicking on <code>Untitled</code> in the left upper corner.</p>
-<p><figure markdown="span">
+<figure>
   <a class="glightbox" href="images/jupyter-new-notebook-rename.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Jupyter Notebook" src="images/jupyter-new-notebook-rename.png" /></a>
-  <figcaption>Rename Notebook file to <code>testdrive.ipynb</code></figcaption>
-</figure></p>
+  <figcaption>Rename Notebook file to `testdrive.ipynb`</figcaption>
+</figure>
 <p>The file structure within the <code>sttk-testdrive</code> directory should now look like this:
-<div class="language-text highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>.
-</span><span id="__span-18-2"><a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a><span class="hll">├── notebooks
-</span></span><span id="__span-18-3"><a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a><span class="hll">│   ├── .ipynb_checkpoints
-</span></span><span id="__span-18-4"><a id="__codelineno-18-4" name="__codelineno-18-4" href="#__codelineno-18-4"></a><span class="hll">│   └── testdrive.ipynb
-</span></span><span id="__span-18-5"><a id="__codelineno-18-5" name="__codelineno-18-5" href="#__codelineno-18-5"></a>└── sttk-testenv
-</span><span id="__span-18-6"><a id="__codelineno-18-6" name="__codelineno-18-6" href="#__codelineno-18-6"></a>    ├── bin
-</span><span id="__span-18-7"><a id="__codelineno-18-7" name="__codelineno-18-7" href="#__codelineno-18-7"></a>    ├── etc
-</span><span id="__span-18-8"><a id="__codelineno-18-8" name="__codelineno-18-8" href="#__codelineno-18-8"></a>    ├── include
-</span><span id="__span-18-9"><a id="__codelineno-18-9" name="__codelineno-18-9" href="#__codelineno-18-9"></a>    ├── lib
-</span><span id="__span-18-10"><a id="__codelineno-18-10" name="__codelineno-18-10" href="#__codelineno-18-10"></a>    ├── pyvenv.cfg
-</span><span id="__span-18-11"><a id="__codelineno-18-11" name="__codelineno-18-11" href="#__codelineno-18-11"></a>    └── share
+<div class="language-text highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>.
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="hll">├── notebooks
+</span></span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a><span class="hll">│   ├── .ipynb_checkpoints
+</span></span><span id="__span-10-4"><a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a><span class="hll">│   └── testdrive.ipynb
+</span></span><span id="__span-10-5"><a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a>└── sttk-testenv
+</span><span id="__span-10-6"><a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a>    ├── bin
+</span><span id="__span-10-7"><a id="__codelineno-10-7" name="__codelineno-10-7" href="#__codelineno-10-7"></a>    ├── etc
+</span><span id="__span-10-8"><a id="__codelineno-10-8" name="__codelineno-10-8" href="#__codelineno-10-8"></a>    ├── include
+</span><span id="__span-10-9"><a id="__codelineno-10-9" name="__codelineno-10-9" href="#__codelineno-10-9"></a>    ├── lib
+</span><span id="__span-10-10"><a id="__codelineno-10-10" name="__codelineno-10-10" href="#__codelineno-10-10"></a>    ├── pyvenv.cfg
+</span><span id="__span-10-11"><a id="__codelineno-10-11" name="__codelineno-10-11" href="#__codelineno-10-11"></a>    └── share
 </span></code></pre></div></p>
-<p><strong>Step 6</strong>: Import the necessary module.
-<div class="language-python highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="kn">import</span> <span class="nn">sttk.data.yfdownload</span> <span class="k">as</span> <span class="nn">yfd</span>
+<h2 id="download-historical-market-data">Download Historical Market Data</h2>
+<p><strong>Step 1</strong>: Import the necessary module.
+<div class="language-python highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="kn">import</span> <span class="nn">sttk.data.yfdownload</span> <span class="k">as</span> <span class="nn">yfd</span>
 </span></code></pre></div></p>
-<p><strong>Step 7</strong>: Download a CSV file containing OHLC data from Yahoo Finance.</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a><span class="n">yfd</span><span class="o">.</span><span class="n">download_and_resample_yf_data</span><span class="p">(</span>
-</span><span id="__span-20-2"><a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a>    <span class="n">stock_symbol</span> <span class="o">=</span> <span class="s1">&#39;AAPL&#39;</span><span class="p">,</span>
-</span><span id="__span-20-3"><a id="__codelineno-20-3" name="__codelineno-20-3" href="#__codelineno-20-3"></a>    <span class="n">start_date</span> <span class="o">=</span> <span class="s1">&#39;2023-01-01&#39;</span><span class="p">,</span>
-</span><span id="__span-20-4"><a id="__codelineno-20-4" name="__codelineno-20-4" href="#__codelineno-20-4"></a>    <span class="n">end_date</span> <span class="o">=</span> <span class="s1">&#39;2023-12-31&#39;</span><span class="p">,</span>
-</span><span id="__span-20-5"><a id="__codelineno-20-5" name="__codelineno-20-5" href="#__codelineno-20-5"></a>    <span class="n">period</span> <span class="o">=</span> <span class="s1">&#39;1d&#39;</span><span class="p">,</span>
-</span><span id="__span-20-6"><a id="__codelineno-20-6" name="__codelineno-20-6" href="#__codelineno-20-6"></a>    <span class="n">data_dir</span> <span class="o">=</span> <span class="s1">&#39;../.&#39;</span><span class="p">,</span> <span class="c1">#(1)!</span>
-</span><span id="__span-20-7"><a id="__codelineno-20-7" name="__codelineno-20-7" href="#__codelineno-20-7"></a><span class="p">)</span>
+<p><strong>Step 2</strong>: Download a CSV file containing OHLC data from Yahoo Finance.</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="n">yfd</span><span class="o">.</span><span class="n">download_and_resample_yf_data</span><span class="p">(</span>
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>    <span class="n">stock_symbol</span> <span class="o">=</span> <span class="s1">&#39;AAPL&#39;</span><span class="p">,</span>
+</span><span id="__span-12-3"><a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a>    <span class="n">start_date</span> <span class="o">=</span> <span class="s1">&#39;2023-01-01&#39;</span><span class="p">,</span>
+</span><span id="__span-12-4"><a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a>    <span class="n">end_date</span> <span class="o">=</span> <span class="s1">&#39;2023-12-31&#39;</span><span class="p">,</span>
+</span><span id="__span-12-5"><a id="__codelineno-12-5" name="__codelineno-12-5" href="#__codelineno-12-5"></a>    <span class="n">period</span> <span class="o">=</span> <span class="s1">&#39;1d&#39;</span><span class="p">,</span>
+</span><span id="__span-12-6"><a id="__codelineno-12-6" name="__codelineno-12-6" href="#__codelineno-12-6"></a>    <span class="n">data_dir</span> <span class="o">=</span> <span class="s1">&#39;../.&#39;</span><span class="p">,</span> <span class="c1">#(1)!</span>
+</span><span id="__span-12-7"><a id="__codelineno-12-7" name="__codelineno-12-7" href="#__codelineno-12-7"></a><span class="p">)</span>
 </span></code></pre></div>
 <ol>
 <li>This guide assumes that you want to save the CSV file containing the downloaded historical market data in a subdirectory named <code>sttk-data</code> within your current working directory. If not, you need to specify the path in which the downloaded CSV files should be saved via the <code>data_dir</code> argument when calling the <code>yfd.download_and_resample_yf_data()</code> function. </li>
 </ol>
-<p><figure markdown="span">
+<figure>
   <a class="glightbox" href="images/jupyter-testdrive-download.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Jupyter Notebook" src="images/jupyter-testdrive-download.png" /></a>
   <figcaption>Jupyter Notebook cell input and output</figcaption>
-</figure></p>
+</figure>
 <p>This will create a <code>sttk-data</code> directory inside your current working directory and save a file named <code>AAPL_historical_2023-01-01_2023-12-31_1d.csv</code> inside this directory.
-<div class="language-text highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>.
-</span><span id="__span-21-2"><a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>├── notebooks
-</span><span id="__span-21-3"><a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a>│   ├── .ipynb_checkpoints
-</span><span id="__span-21-4"><a id="__codelineno-21-4" name="__codelineno-21-4" href="#__codelineno-21-4"></a>│   └── testdrive.ipynb
-</span><span id="__span-21-5"><a id="__codelineno-21-5" name="__codelineno-21-5" href="#__codelineno-21-5"></a>├── sttk-data
-</span><span id="__span-21-6"><a id="__codelineno-21-6" name="__codelineno-21-6" href="#__codelineno-21-6"></a>│   └── AAPL_historical_2023-01-01_2023-12-31_1d.csv
-</span><span id="__span-21-7"><a id="__codelineno-21-7" name="__codelineno-21-7" href="#__codelineno-21-7"></a>└── sttk-testenv
-</span><span id="__span-21-8"><a id="__codelineno-21-8" name="__codelineno-21-8" href="#__codelineno-21-8"></a>    ├── bin
-</span><span id="__span-21-9"><a id="__codelineno-21-9" name="__codelineno-21-9" href="#__codelineno-21-9"></a>    ├── etc
-</span><span id="__span-21-10"><a id="__codelineno-21-10" name="__codelineno-21-10" href="#__codelineno-21-10"></a>    ├── include
-</span><span id="__span-21-11"><a id="__codelineno-21-11" name="__codelineno-21-11" href="#__codelineno-21-11"></a>    ├── lib
-</span><span id="__span-21-12"><a id="__codelineno-21-12" name="__codelineno-21-12" href="#__codelineno-21-12"></a>    ├── pyvenv.cfg
-</span><span id="__span-21-13"><a id="__codelineno-21-13" name="__codelineno-21-13" href="#__codelineno-21-13"></a>    └── share
+<div class="language-text highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>.
+</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>├── notebooks
+</span><span id="__span-13-3"><a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>│   ├── .ipynb_checkpoints
+</span><span id="__span-13-4"><a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a>│   └── testdrive.ipynb
+</span><span id="__span-13-5"><a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a>├── sttk-data
+</span><span id="__span-13-6"><a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a>│   └── AAPL_historical_2023-01-01_2023-12-31_1d.csv
+</span><span id="__span-13-7"><a id="__codelineno-13-7" name="__codelineno-13-7" href="#__codelineno-13-7"></a>└── sttk-testenv
+</span><span id="__span-13-8"><a id="__codelineno-13-8" name="__codelineno-13-8" href="#__codelineno-13-8"></a>    ├── bin
+</span><span id="__span-13-9"><a id="__codelineno-13-9" name="__codelineno-13-9" href="#__codelineno-13-9"></a>    ├── etc
+</span><span id="__span-13-10"><a id="__codelineno-13-10" name="__codelineno-13-10" href="#__codelineno-13-10"></a>    ├── include
+</span><span id="__span-13-11"><a id="__codelineno-13-11" name="__codelineno-13-11" href="#__codelineno-13-11"></a>    ├── lib
+</span><span id="__span-13-12"><a id="__codelineno-13-12" name="__codelineno-13-12" href="#__codelineno-13-12"></a>    ├── pyvenv.cfg
+</span><span id="__span-13-13"><a id="__codelineno-13-13" name="__codelineno-13-13" href="#__codelineno-13-13"></a>    └── share
 </span></code></pre></div></p>
-<p><strong>Step 8 (Optional)</strong>: You can now inspect the downloaded CSV file with STTK's CSV inspector tool.
-<div class="language-python3 highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a><span class="kn">import</span> <span class="nn">sttk.researchtools.csvinspector</span> <span class="k">as</span> <span class="nn">csvi</span>
+<p><strong>Step 3 (Optional)</strong>: You can now inspect the downloaded CSV file with STTK's CSV inspector tool.
+<div class="language-python3 highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="kn">import</span> <span class="nn">sttk.researchtools.csvinspector</span> <span class="k">as</span> <span class="nn">csvi</span>
 </span></code></pre></div>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a><span class="n">csvi</span><span class="o">.</span><span class="n">csvinspector</span><span class="p">(</span>
-</span><span id="__span-23-2"><a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a>    <span class="n">csv_file_path</span> <span class="o">=</span> <span class="s1">&#39;.././sttk-data/AAPL_historical_2023-01-01_2023-12-31_1d.csv&#39;</span><span class="p">,</span> 
-</span><span id="__span-23-3"><a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a><span class="p">)</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="n">csvi</span><span class="o">.</span><span class="n">csvinspector</span><span class="p">(</span>
+</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a>    <span class="n">csv_file_path</span> <span class="o">=</span> <span class="s1">&#39;.././sttk-data/AAPL_historical_2023-01-01_2023-12-31_1d.csv&#39;</span><span class="p">,</span> 
+</span><span id="__span-15-3"><a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a><span class="p">)</span>
 </span></code></pre></div></p>
-<p><figure markdown="span">
+<figure>
   <a class="glightbox" href="images/jupyter-testdrive-inspect.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Jupyter Notebook" src="images/jupyter-testdrive-inspect.png" /></a>
   <figcaption>Jupyter Notebook cell input and output</figcaption>
-</figure></p>
-<p><strong>Step 9 (Optional)</strong>: Cleaning up.</p>
-<p>First, close and shut down the Jupyter Notebook.
-<figure markdown="span">
+</figure>
+<h2 id="plotting-a-bar-chart">Plotting a Bar Chart</h2>
+<p><strong>Step 1</strong>: Import the necessary module.
+<div class="language-python highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="kn">import</span> <span class="nn">sttk.charting.main</span> <span class="k">as</span> <span class="nn">charting</span>
+</span></code></pre></div></p>
+<p><strong>Step 2</strong>: Plot a bar chart of the stock data obtained in the previous section (here with a dark color theme):
+<div class="language-python highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="n">charting</span><span class="o">.</span><span class="n">plot_chart</span><span class="p">(</span>
+</span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>    <span class="s2">&quot;.././sttk-data/ABR_historical_2023-01-01_2023-12-31_1d.csv&quot;</span><span class="p">,</span>
+</span><span id="__span-17-3"><a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>    <span class="n">theme</span><span class="o">=</span><span class="s2">&quot;dark&quot;</span><span class="p">,</span>
+</span><span id="__span-17-4"><a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a>    <span class="p">)</span>
+</span></code></pre></div></p>
+<figure>
+  <a class="glightbox" href="images/jupyter-plot-bar-chart.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Jupyter Notebook" src="images/jupyter-plot-bar-chart.png" /></a>
+  <figcaption>Plotting a Bar Chart</figcaption>
+</figure>
+<h2 id="adding-indicators">Adding Indicators</h2>
+<p><strong>Simple Example</strong>: Let's add a RSI sub-panel to the bottom of the bar chart.
+For that we first need to import the necessary module from the <code>sttk</code> library:
+<div class="language-python highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="kn">import</span> <span class="nn">sttk.charting.indicators</span> <span class="k">as</span> <span class="nn">ind</span>
+</span></code></pre></div></p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="n">charting</span><span class="o">.</span><span class="n">plot_chart</span><span class="p">(</span>
+</span><span id="__span-19-2"><a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a>    <span class="s2">&quot;.././sttk-data/ABR_historical_2023-01-01_2023-12-31_1d.csv&quot;</span><span class="p">,</span>
+</span><span id="__span-19-3"><a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a>    <span class="n">indicators</span><span class="o">=</span><span class="p">[</span><span class="n">ind</span><span class="o">.</span><span class="n">RSI</span><span class="p">(</span><span class="mi">14</span><span class="p">)],</span>
+</span><span id="__span-19-4"><a id="__codelineno-19-4" name="__codelineno-19-4" href="#__codelineno-19-4"></a>    <span class="n">theme</span><span class="o">=</span><span class="s2">&quot;dark&quot;</span><span class="p">,</span>
+</span><span id="__span-19-5"><a id="__codelineno-19-5" name="__codelineno-19-5" href="#__codelineno-19-5"></a>    <span class="p">)</span>
+</span></code></pre></div>
+<figure>
+  <a class="glightbox" href="images/jupyter-indicator-simple-example.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Jupyter Notebook" src="images/jupyter-indicator-simple-example.png" /></a>
+  <figcaption>Plotting a Bar Chart with RSI sub-panel</figcaption>
+</figure>
+<p><strong>Complex Example</strong>: Let's add a RSI sub-panel to the top of the bar chart and also add the 50-period High and Low bands (i.e. construct a Donchian Channel) to the main Bar Chart panel.</p>
+<p>To do that, let's first create a indicator preset:
+<div class="language-python highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a><span class="n">complex_example</span> <span class="o">=</span> <span class="p">[</span>
+</span><span id="__span-20-2"><a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a>    <span class="n">ind</span><span class="o">.</span><span class="n">PeriodHigh</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">0.5</span><span class="p">),</span>
+</span><span id="__span-20-3"><a id="__codelineno-20-3" name="__codelineno-20-3" href="#__codelineno-20-3"></a>    <span class="n">ind</span><span class="o">.</span><span class="n">PeriodLow</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">0.5</span><span class="p">),</span>
+</span><span id="__span-20-4"><a id="__codelineno-20-4" name="__codelineno-20-4" href="#__codelineno-20-4"></a>    <span class="n">ind</span><span class="o">.</span><span class="n">RSI</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">0.7</span><span class="p">,</span> <span class="n">position</span><span class="o">=</span><span class="s2">&quot;top&quot;</span><span class="p">),</span>
+</span><span id="__span-20-5"><a id="__codelineno-20-5" name="__codelineno-20-5" href="#__codelineno-20-5"></a>    <span class="n">ind</span><span class="o">.</span><span class="n">SimpleMovingAverage</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">0.5</span><span class="p">),</span>
+</span><span id="__span-20-6"><a id="__codelineno-20-6" name="__codelineno-20-6" href="#__codelineno-20-6"></a><span class="p">]</span>
+</span></code></pre></div></p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a><span class="n">charting</span><span class="o">.</span><span class="n">plot_chart</span><span class="p">(</span>
+</span><span id="__span-21-2"><a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>    <span class="s2">&quot;.././sttk-data/ABR_historical_2023-01-01_2023-12-31_1d.csv&quot;</span><span class="p">,</span>
+</span><span id="__span-21-3"><a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a>    <span class="n">indicators</span><span class="o">=</span><span class="n">complex_example</span><span class="p">,</span>
+</span><span id="__span-21-4"><a id="__codelineno-21-4" name="__codelineno-21-4" href="#__codelineno-21-4"></a>    <span class="n">theme</span><span class="o">=</span><span class="s2">&quot;dark&quot;</span><span class="p">,</span>
+</span><span id="__span-21-5"><a id="__codelineno-21-5" name="__codelineno-21-5" href="#__codelineno-21-5"></a>    <span class="p">)</span>
+</span></code></pre></div>
+<figure>
+  <a class="glightbox" href="images/jupyter-indicator-complex-example.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Jupyter Notebook" src="images/jupyter-indicator-complex-example.png" /></a>
+  <figcaption>Plotting a Bar Chart with RSI sub-panel and Donchian Channel upper and lower bands</figcaption>
+</figure>
+<h2 id="cleaning-up">Cleaning up</h2>
+<p>First, close and shut down the Jupyter Notebook.</p>
+<figure>
   <a class="glightbox" href="images/jupyter-notebook-shutdown-notebook.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Jupyter Notebook" src="images/jupyter-notebook-shutdown-notebook.png" /></a>
   <figcaption>Close and shut down Jupyter Notebook</figcaption>
-</figure></p>
-<p>Then, shut down the Jupyter Notebook server.
-<figure markdown="span">
+</figure>
+<p>Then, shut down the Jupyter Notebook server.</p>
+<figure>
   <a class="glightbox" href="images/jupyter-notebook-shutdown-server.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Jupyter Notebook" src="images/jupyter-notebook-shutdown-server.png" /></a>
   <figcaption>Shut down Jupyter Notebook server</figcaption>
-</figure></p>
-<p>Delete the <code>sttk-data</code> folder and delete the <code>notebooks</code> directory.
+</figure>
+<p>If desired, delete the <code>sttk-data</code> folder and delete the <code>notebooks</code> directory, ...
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a><span class="nb">cd</span><span class="w"> </span>..
+</span><span id="__span-22-2"><a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a>rm<span class="w"> </span>-r<span class="w"> </span>sttk-data
+</span><span id="__span-22-3"><a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a>rm<span class="w"> </span>-r<span class="w"> </span>notebooks
+</span></code></pre></div></p>
+<p>... deactivate the virtual environment, and finally ...
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>deactivate
+</span></code></pre></div></p>
+<p>... delete the whole sttk-testdrive directory:
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a><span class="nb">cd</span><span class="w"> </span>..
-</span><span id="__span-24-2"><a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a>rm<span class="w"> </span>-r<span class="w"> </span>sttk-data
-</span><span id="__span-24-3"><a id="__codelineno-24-3" name="__codelineno-24-3" href="#__codelineno-24-3"></a>rm<span class="w"> </span>-r<span class="w"> </span>notebooks
+</span><span id="__span-24-2"><a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a>rm<span class="w"> </span>-r<span class="w"> </span>sttk-testdrive
 </span></code></pre></div></p>
-<p>If desired, deactivate the virtual environment.
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-25-1"><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a>deactivate
-</span></code></pre></div></p>
-</div>
-</div>
-</div>
 
 
 
@@ -890,7 +739,7 @@ Now, a Jupyter Notebook server will run at <code>localhost:8888</code>, the port
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 16, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 28, 2024</span>
   </span>
 
     

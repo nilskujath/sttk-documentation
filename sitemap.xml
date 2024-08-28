@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://www.sttk.org/</loc>
-         <lastmod>2024-08-16</lastmod>
+         <lastmod>2024-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.sttk.org/api-reference/library-overview/</loc>
-         <lastmod>2024-08-16</lastmod>
+         <lastmod>2024-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.sttk.org/api-reference/data/yfdownload/</loc>
-         <lastmod>2024-08-16</lastmod>
+         <lastmod>2024-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.sttk.org/api-reference/researchtools/csvinspector/</loc>
-         <lastmod>2024-08-16</lastmod>
+         <lastmod>2024-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.sttk.org/contribute/cicd/</loc>
-         <lastmod>2024-08-16</lastmod>
+         <lastmod>2024-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.sttk.org/getting-started/installation/</loc>
-         <lastmod>2024-08-16</lastmod>
+         <lastmod>2024-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
